@@ -1,0 +1,167 @@
+.mycar__container
+{
+    display: flex;
+}
+
+.mycar__container2
+{
+    padding: 0px;
+    font-size: 25px;
+    margin: 20px;
+
+    color: blue;
+    border-bottom: 2px solid blue;
+    width: 200px;
+}
+
+.car_img_container
+{
+    margin-top: 50px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.car_img_container img
+{
+    width: 300px;
+    height: 200px;
+}
+
+.car__data .car__head
+{   margin-top: 50px;
+    margin-left: 100px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.price__container
+{
+    margin-left: 100px;
+    line-height: 5px;
+}
+
+.mrp,
+.sale__price
+{
+    font-size: 20px;
+}
+
+.you_save
+{
+    color: rgb(1, 101, 225);
+}
+
+.car__details
+{
+    margin-left: 100px;
+    padding: 0px;
+    font-size: 35px;
+    margin-top: 20px;
+
+    color: rgb(1, 101, 225);
+    border-bottom: 2px solid rgb(1, 101, 225);
+}
+
+.buy__cart
+{
+    margin-left: 100px;
+}
+
+.car_descriprtion
+{
+    margin-left: 100px;
+}
+
+.cod_warranty_replacement
+{
+    margin-left: 100px;
+    display: flex;
+    background-color: #ffffff;
+    padding: 0px;
+    justify-content: space-evenly;
+    width: 300px;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px grey;
+}
+
+.cod,
+.warranty,
+.easy__returns
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__circle
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    background-color: white;
+}
+
+.img__circle img
+{
+    width: 30px;
+    border-radius: 20px;
+}
+
+.cod,
+.warranty,
+.easy__returns p
+{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    color: blue;
+}
+
+.cod_warranty_replacement
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 550px;
+}
+
+.buy__now,
+.addto__cart
+{
+    color: rgb(1, 101, 225);
+    
+}
+
+.buy__cart
+{
+    margin-top: 10px;
+}
+
+.buy__now
+{
+    margin-left: 70px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+    width: 25%;
+}
+
+.addto__cart
+{
+    margin-left: 150px;
+    font-size: 20px;
+    border-radius: 4px;
+    width: 25%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,136 @@
+.header
+{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(37, 150, 190);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo
+{
+
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+}
+
+.header__search
+{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header__searchInput
+{
+    height: 10px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__searchIcon
+{
+    padding: 5px;
+    height: 22px;
+    background-color:rgb(37, 150, 190);
+}
+
+.header__optionOne
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.header__optionTwo
+{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.header__userIcon
+{
+    size: 20px;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__signIn
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+
+.header__optionlineOne
+{
+    font-size: 10px;
+    color: white;
+}
+
+.header__optionlineTwo
+{
+
+    font-size: 13px;
+    font-weight: 500px;
+    color: white;
+}
+
+.header__optionbasket 
+{
+    size: 20px;
+    display: flex;
+    align-items: center;
+    color: red;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.car_brands
+{
+    background-color: rgb(135, 206, 235);
+    display: flex;
+    justify-content: center;
+}
+
+.car_brands button
+{
+    background-color: rgb(135, 206, 235);
+    padding: 0px 5px;
+    margin: 8px 15px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.car_brands button:hover
+{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+

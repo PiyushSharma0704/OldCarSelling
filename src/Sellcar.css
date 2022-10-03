@@ -1,0 +1,63 @@
+.SellCar__container
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.SellCar__form
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    border: 1px solid rgb(37, 150, 190);
+    border-radius: 10px;
+    width: 600px;
+}
+
+.SellCar__form p
+{
+    font-size: 25px;
+    font-weight: 500px;
+    color: rgb(37, 150, 190);
+}
+
+.SellCar__form label
+{
+    padding: 0px;
+    margin-top: 5px;
+    font-weight: 500px;
+    font-size: 12px;
+    color: rgb(37, 150, 190);
+    text-decoration-color: rgb(37, 150, 190);
+}
+
+.SellCar__form input
+{
+    margin: 2px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid rgb(37, 150, 190);
+    font-size: 13px;
+}
+
+.SellCar__form textarea
+{
+    border: 2px solid rgb(37, 150, 190);
+}
+
+.SellCar__form button
+{
+    background-color:  rgb(37, 150, 190);
+    margin: 10px 0px;
+    border: none;
+    font-size: 15px;
+    size: 50px;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+
+
+
