@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import DeleteIcon from "@mui/icons-material/Delete";
 import "./CartCard.css";
-import { deleteDoc, doc } from "firebase/firestore";
+import { deleteDoc, doc, updateDoc } from "firebase/firestore";
 import { db } from "./firebase";
 
 const CartCard = (props) => {
-  const [productquantity, setproductquantity] = useState(props.itemdata.productquantity);
+  const [productquantity, setproductquantity] = useState(props.itemdata.quanity);
 
 
   let p = props.itemdata.car.price;
@@ -15,14 +15,24 @@ const CartCard = (props) => {
 
   let mrp = parseInt(p);
   mrp = mrp + overalltax * mrp + overcommission * mrp + extraforprofit * mrp;
-  const saleprice = (mrp - extraforprofit * mrp) * productquantity;
+  const saleprice = (mrp - extraforprofit * mrp)*productquantity;
 
-  const increasequantity = () => {
+  const increasequantity = async () => {
     setproductquantity(productquantity + 1);
+
+    const itemref = doc(db, `cart-${props.userid}`, `${props.itemdata.id}`)
+    await updateDoc(itemref,{
+      quanity: productquantity +1 
+    }).then(() => {console.log('changed quantity')})
   };
-  const decreasequantity = () => {
+  const decreasequantity = async () => {
     if (productquantity >= 1) {
       setproductquantity(productquantity - 1);
+
+      const itemref = doc(db, `cart-${props.userid}`, `${props.itemdata.id}`)
+      await updateDoc(itemref,{
+      quanity: productquantity - 1 
+    }).then(() => {console.log('changed quantity')})
     }
   };
 

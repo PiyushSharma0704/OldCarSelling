@@ -52,7 +52,7 @@ function Cart() {
 
   return (
     <div>
-      {cartdata ? (
+      {cartdata.length != 0 ? (
         <div>
           <div className="cart__container">Your cart items</div>
           <div className="allcartitems">
